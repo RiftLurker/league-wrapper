@@ -1,0 +1,41 @@
+{
+  "name": "league-wrapper",
+  "version": "0.1.0",
+  "description": "REST API Wrapper for the League of Legends API",
+  "main": "lib/api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "wrapper",
+    "league",
+    "lol",
+    "ward",
+    "leagueoflegends",
+    "riot",
+    "riotgames"
+  ],
+  "author": "Leo \"PostCrafter\" Friedrichs <dev@postcrafter.de>",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postcrafter.league-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PostCrafter/league-wrapper/issues",
+    "email": "dev@postcrafter.de"
+  },
+  "dependencies": {
+    "clone": "^2.0.0",
+    "node-cache": "^4.1.0",
+    "node-rest-client": "^2.0.1",
+    "object-hash": "^1.1.4",
+    "object-merge": "^2.5.1",
+    "redis": "^2.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1"
+  }
+}
