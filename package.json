@@ -20,7 +20,7 @@
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/postcrafter.league-wrapper.git"
+    "url": "https://github.com/postcrafter/league-wrapper.git"
   },
   "bugs": {
     "url": "https://github.com/PostCrafter/league-wrapper/issues",
