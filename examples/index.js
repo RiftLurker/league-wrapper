@@ -7,7 +7,7 @@ if (!apiKey) {
 }
 
 const api = new LeagueWrapper(apiKey, {
-  region: LeagueWrapper.Region.EUW
+  region: LeagueWrapper.Region.byName('euw')
 });
 
 exports = module.exports = api;
