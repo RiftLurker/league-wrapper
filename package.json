@@ -12,7 +12,6 @@
     "wrapper",
     "league",
     "lol",
-    "ward",
     "leagueoflegends",
     "riot",
     "riotgames"
@@ -28,14 +27,10 @@
     "email": "dev@postcrafter.de"
   },
   "dependencies": {
-    "clone": "^2.0.0",
-    "node-cache": "^4.1.0",
-    "node-rest-client": "^2.0.1",
-    "object-hash": "^1.1.4",
-    "object-merge": "^2.5.1",
-    "redis": "^2.6.2"
+    "node-rest-client": "^2.0.1"
   },
   "devDependencies": {
-    "eslint": "^3.7.1"
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1"
   }
 }
