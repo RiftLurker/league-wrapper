@@ -1,3 +1,8 @@
 'use strict';
 
-exports = module.exports = require('./lib/league-wrapper');
+/**
+ * @type {LeagueWrapper}
+ */
+const LeagueWrapper = require('./lib/league-wrapper.js');
+
+exports = module.exports = LeagueWrapper;
