@@ -2,7 +2,7 @@
   "name": "league-wrapper",
   "version": "0.2.1",
   "description": "REST API Wrapper for the League of Legends API",
-  "main": "lib/api.js",
+  "main": "lib/league-wrapper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
