@@ -10,7 +10,7 @@ $ npm install league-wrapper
 * Wrapper for all provided services
 * Fully documented
 * JSDoc for the Response DataObjects
-* Can be used both as Promise or with callbacks
+* Can be used both as [Promise](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Promise) or with callbacks
 
 ## Example Usage
 ### Getting started
@@ -26,7 +26,7 @@ const api = new LeagueWrapper({
   region: LeagueWrapper.Region.EUW
 });
 ```
-### Using promise
+### Using Promise
 ```js
 api.summoner.getByNames('PostCrafter').then(function(summoners) {
   console.log(summoners);
@@ -62,10 +62,10 @@ api.summoner.getByNames('PostCrafter', function(error, summoners) {
 ```
 
 ## Documentation
-See [here](doc/README.md).
+See [here](doc).
 
 ## Examples
-See [here](examples/README.md).
+See [here](examples).
 
 ## License
 [AGPL-3.0](LICENSE.md)
