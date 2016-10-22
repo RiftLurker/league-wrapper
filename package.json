@@ -32,5 +32,10 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-eslint": "^3.0.1"
+  },
+  "directories": {
+    "lib": "./lib",
+    "doc": "./doc",
+    "example": "./examples"
   }
 }
