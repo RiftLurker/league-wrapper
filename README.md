@@ -1,6 +1,12 @@
 # league-wrapper
 A wrapper for the [League of Legends official API](https://developer.riotgames.com/). 
 
+## Introduction
+This project aims to provide an easy to use interface for the League of Legends API.
+Since it's my first public project, please feel free to contact me and leave some feedback.
+
+Also please keep in mind that this is not a stable version yet, so interface spec might change while the implementation is still worked on.
+
 ## Installation
 ```
 $ npm install league-wrapper
