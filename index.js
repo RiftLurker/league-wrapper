@@ -1,7 +1,11 @@
 'use strict';
 
 /**
- * @type {LeagueWrapper}
+ * @module module:LeagueWrapper
+ */
+
+/**
+ * @type {module:LeagueWrapper~LeagueWrapper}
  */
 const LeagueWrapper = require('./lib/league-wrapper.js');
 
