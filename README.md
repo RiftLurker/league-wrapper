@@ -20,15 +20,14 @@ $ npm install league-wrapper
 
 ## Example Usage
 ### Getting started
-The LeagueWrapper accepts an object with the API key and the default region used for the requests.
+The LeagueWrapper accepts the API key and an object with the default region used for the requests.
 You can get your key from the [Developer Portal](https://developer.riotgames.com/).
  
 If no region is passed the Wrapper will default to Region.EUW. Possible regions can be found [here](doc/constant/Region.md)
 ```js
 const LeagueWrapper = require('league-wrapper');
 
-const api = new LeagueWrapper({
-  key: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+const api = new LeagueWrapper('xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx', {
   region: LeagueWrapper.Region.EUW
 });
 ```
