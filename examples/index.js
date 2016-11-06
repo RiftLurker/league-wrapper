@@ -1,3 +1,5 @@
+'use strict';
+
 const LeagueWrapper = require('../index.js');
 
 const apiKey = process.env.RIOTGAMES_API_KEY;
@@ -7,7 +9,10 @@ if (!apiKey) {
 }
 
 const api = new LeagueWrapper(apiKey, {
-  region: LeagueWrapper.Region.EUW
+  region: 'euw'
 });
 
+/**
+ * @type {module:LeagueWrapper~LeagueWrapper}
+ */
 exports = module.exports = api;
